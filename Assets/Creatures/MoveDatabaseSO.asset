@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d578738e496d4844b6360c9408be077, type: 3}
+  m_Name: MoveDatabaseSO
+  m_EditorClassIdentifier: 
+  adMoves:
+  - moveName: Direct
+    damage: 50
+    impact: Select 1 SP
+    category: 0
+  - moveName: Flood
+    damage: 25
+    impact: Select 1 zone
+    category: 0
+  - moveName: Laser
+    damage: 25
+    impact: Select 1 lane
+    category: 0
+  - moveName: Aerial
+    damage: 70
+    impact: Select 1 SP above ground
+    category: 0
+  - moveName: Earthquake
+    damage: 70
+    impact: Select 1 SP below ground
+    category: 0
+  - moveName: Focus
+    damage: 100
+    impact: Select 1 SP - attack on 2nd turn
+    category: 0
+  - moveName: Dual Smack
+    damage: 50
+    impact: Select 2 SP - attack on 2nd turn
+    category: 0
+  - moveName: Close Combat
+    damage: 80
+    impact: Select 1 SP  - lower user's defense by 50%
+    category: 0
+  supMoves:
+  - moveName: Solo Heal
+    damage: -30
+    impact: Select 1 SP
+    category: 1
+  - moveName: Zone Heal
+    damage: -20
+    impact: Select 1 zone
+    category: 1
+  - moveName: Poison
+    damage: -10
+    impact: Select 1 SP
+    category: 1
+  - moveName: Move
+    damage: 0
+    impact: Select 1 SP, move to other SP
+    category: 1
+  - moveName: Cloud
+    damage: 0
+    impact: Lower accuracy in a zone
+    category: 1
+  - moveName: Disable
+    damage: 0
+    impact: Select 1 SP, they can't attack this turn
+    category: 1
+  - moveName: Buff
+    damage: 0
+    impact: Select 1 SP, they can't attack this turn. (Increase damage by 10%)
+    category: 1
+  - moveName: Smokescreen
+    damage: 0
+    impact: Select 1 zone
+    category: 1
+  conjurorMoves:
+  - moveName: Tunnel
+    damage: 0
+    impact: Create a tunnel connecting 2 SP
+    category: 2
+  - moveName: Barrier
+    damage: 0
+    impact: Select 1 SP
+    category: 2
+  - moveName: Tower
+    damage: 0
+    impact: Create a tower on 1 SP
+    category: 2
+  - moveName: Breakdown
+    damage: 0
+    impact: Break all structures in a zone. Takes 2 turns to use
+    category: 2
+  - moveName: Decoy
+    damage: 0
+    impact: Create a decoy creature in 1 SP
+    category: 2

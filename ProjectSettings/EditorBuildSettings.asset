@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/StartMenu.unity
+    guid: b7ba6856d51a0e047a7e00e362c38bca
+  - enabled: 1
+    path: Assets/Scenes/radialScene.unity
+    guid: a5dc03dd5176fc0428cc44ec1be633f9
+  - enabled: 1
+    path: Assets/Episodes/Episode1/Episode1.unity
+    guid: be13f58794504ff458f8fe5bd1bc8b02
+  - enabled: 1
+    path: Assets/Episodes/Episode2/episode2.unity
+    guid: 9e0b188fc2ed59e459ba3db89912b6f8
+  - enabled: 1
+    path: Assets/Episodes/homeStreet.unity
+    guid: 9280cf529fc6bc4429c23ce87c319373
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  m_UseUCBPForAssetBundles: 0

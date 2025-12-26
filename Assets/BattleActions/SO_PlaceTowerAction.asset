@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 225ade7d6288c6848bee3c44dd5461f7, type: 3}
+  m_Name: SO_PlaceTowerAction
+  m_EditorClassIdentifier: 
+  path:
+  - Conjure
+  name: Tower
+  manaCost: 30
+  towerPrefab: {fileID: 6351233860807320554, guid: 4d76d2f804c008f4185b53a65448e9d3, type: 3}

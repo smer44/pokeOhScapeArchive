@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f744089265437844b8676d56d16b929e, type: 3}
+  m_Name: TestSceneLoad
+  m_EditorClassIdentifier: 
+  units:
+  - zone: 0
+    lane: 0
+    unit: {fileID: 11400000, guid: 724756b301c51dc44bb1206b2487cfc8, type: 2}
+    team: player1
+    sprite: {fileID: 21300000, guid: 72b708a0252ece64a94baedfb4f2c344, type: 3}
+    mesh: {fileID: 7027636043351174211, guid: bd5ab7e7233ecd14ab1e4c28afd8d2dd, type: 3}
+    material: {fileID: 2100000, guid: 70c069b5030beb346b62ff9b3b8bf774, type: 2}
+  - zone: 4
+    lane: 1
+    unit: {fileID: 11400000, guid: 37582f567953004489220133c19e9407, type: 2}
+    team: player2
+    sprite: {fileID: 21300000, guid: 7b0989825c930c84288e5bb35fef3259, type: 3}
+    mesh: {fileID: 0}
+    material: {fileID: 0}
+  - zone: 5
+    lane: 2
+    unit: {fileID: 11400000, guid: 9b45bcaa4d742234493d3749243195af, type: 2}
+    team: player2
+    sprite: {fileID: 21300000, guid: 627ca70e3e42dc0408a28f6db244d66f, type: 3}
+    mesh: {fileID: 0}
+    material: {fileID: 0}
